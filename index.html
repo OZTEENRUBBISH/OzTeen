@@ -3,236 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>OzTeen Services</title>
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="theme-color" content="#0B0B0B">
+<title>OzTeen Services | Rubbish Removal, Gardens and Pressure Washing, Northern Beaches</title>
+<meta name="description" content="OzTeen Services is a group of local home services businesses on Sydney's Northern Beaches: rubbish removal, gardens and landscaping, and pressure washing. Same-day quotes.">
+<link rel="canonical" href="https://ozteen.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OzTeen Services">
+<meta property="og:title" content="OzTeen Services | Rubbish Removal, Gardens and Pressure Washing, Northern Beaches">
+<meta property="og:description" content="OzTeen Services is a group of local home services businesses on Sydney's Northern Beaches: rubbish removal, gardens and landscaping, and pressure washing. Same-day quotes.">
+<meta property="og:url" content="https://ozteen.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f6f7fa;--fg:#0f1e33;--card:#fff;--mute:#51607a;--line:#dde3ea;--gold:#d2b77a;--c1:#2a63c7;--c2:#1f8a4c;--c3:#1a7f9a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1322;--fg:#eef2f8;--card:#121f36;--mute:#9fb0c9;--line:#22324f;--c1:#5b9bff;--c2:#3ecf7a;--c3:#29c4e0}}
-:root[data-theme="dark"]{--bg:#0a1322;--fg:#eef2f8;--card:#121f36;--mute:#9fb0c9;--line:#22324f;--c1:#5b9bff;--c2:#3ecf7a;--c3:#29c4e0}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:90px}
-body{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;font-size:17px}
-a{color:inherit}
-:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-.w{max-width:1160px;margin:0 auto;padding:0 24px}
-h1,h2,h3{line-height:1.08;letter-spacing:-.025em;font-weight:800}
-h1{font-size:clamp(2.6rem,7vw,5.2rem)}
-h2{font-size:clamp(1.9rem,4vw,2.8rem);margin-bottom:14px}
-p{max-width:62ch}
-.sec{padding:84px 0}
-.mute{color:var(--mute)}
-.kick{display:inline-block;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--c,var(--gold));margin-bottom:12px}
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(6,12,23,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid #1d2c47}
-.bar{display:flex;align-items:center;justify-content:space-between;height:86px;gap:32px}
-.band{background:linear-gradient(135deg,#0a1322,#14233c);color:#fff;border-radius:28px;padding:56px;position:relative;overflow:hidden}
-.band p{color:#b9c6da}
-.logo{width:132px;height:32px;display:block;flex-shrink:0}
-nav{display:flex;gap:8px;align-items:center;margin-left:auto}
-nav a{text-decoration:none;color:#b9c6da;font-weight:600;font-size:.92rem;padding:10px 16px;border-radius:99px;white-space:nowrap}
-nav a:hover{color:#fff}
-nav a.on{color:#0a1322;background:var(--gold)}
-nav a.btn{color:#0a1322;padding:12px 24px;border-radius:12px;margin-left:18px;font-size:.92rem}
-nav a.btn:hover{color:#0a1322}
-.menu{display:none;margin-left:auto;width:48px;height:48px;border:1px solid #2a3c57;border-radius:12px;background:linear-gradient(#fff,#fff) center 16px/22px 2px no-repeat,linear-gradient(#fff,#fff) center 23px/22px 2px no-repeat,linear-gradient(#fff,#fff) center 30px/22px 2px no-repeat;cursor:pointer}
-.menu[aria-expanded=true]{background-color:#14233c}
-.btn{display:inline-block;background:var(--gold);color:#0a1322;font-weight:800;text-decoration:none;padding:15px 28px;border-radius:12px;border:2px solid var(--gold);cursor:pointer;font:inherit;font-weight:800;transition:transform .15s,box-shadow .15s}
-.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(210,183,122,.3)}
-.btn.g{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
-.btn.g:hover{border-color:#fff;box-shadow:none}
-.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(180deg,#0a1322,#0d1a30);padding:96px 0 88px}
-.hero::before{content:"";position:absolute;width:700px;height:700px;right:-160px;top:-260px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--c,#d2b77a) 42%,transparent),transparent 65%);animation:fl 9s ease-in-out infinite alternate}
-@keyframes fl{to{transform:translate(-60px,50px)}}
-.hero .w{position:relative}
-.hero h1{max-width:14ch}
-.hero p.l{font-size:1.2rem;color:#b9c6da;margin:22px 0 34px;max-width:52ch}
-.acts{display:flex;gap:12px;flex-wrap:wrap}
-.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px;transition:transform .2s,border-color .2s;position:relative;overflow:hidden}
-.card:hover{transform:translateY(-6px);border-color:var(--c,var(--gold))}
-.card::before{content:"";position:absolute;left:0;top:0;right:0;height:5px;background:var(--c,var(--gold))}
-.card h3{font-size:1.6rem;margin-bottom:8px}
-.card p{color:var(--mute);margin-bottom:16px}
-.tag{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
-.tag span{font-size:.8rem;font-weight:700;border:1px solid var(--line);border-radius:99px;padding:3px 11px;color:var(--mute)}
-.lk{display:block;font-weight:800;text-decoration:none;color:var(--c);margin-top:6px}
-.lk:hover{text-decoration:underline}
-.ext{font-size:.85rem;font-weight:600;color:var(--mute)}
-.pick{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:36px}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
-.chips button,.tabs button{font:inherit;font-weight:700;font-size:.92rem;background:transparent;color:var(--fg);border:1.5px solid var(--line);border-radius:99px;padding:9px 18px;cursor:pointer;transition:all .15s}
-.chips button:hover,.tabs button:hover{border-color:var(--c,var(--gold))}
-.tabs button[aria-selected=true],.chips button.s{background:var(--c,var(--gold));border-color:var(--c,var(--gold));color:#0a1322}
-.res{border-left:5px solid var(--c,var(--gold));padding:14px 20px;background:var(--bg);border-radius:0 14px 14px 0;min-height:76px;margin-top:8px}
-.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.st{border-top:3px solid var(--c);padding-top:16px}
-.st b{display:block;font-size:2.4rem;color:var(--c);line-height:1;margin-bottom:8px}
-.st h3{font-size:1.2rem;margin-bottom:4px}
-.svs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.sv{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:18px;padding:24px;transition:transform .2s,box-shadow .2s}
-.sv:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(0,0,0,.14)}
-.sv h3{font-size:1.2rem;margin-bottom:6px}
-.sv p{color:var(--mute);font-size:.98rem}
-.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.pair figure .ph{aspect-ratio:4/3;border-radius:18px;background:linear-gradient(135deg,#5a4a36,#2f2a24)}
-.pair figure.a .ph{background:linear-gradient(135deg,var(--c),#0a1322)}
-.pair figcaption{font-weight:800;margin-top:10px}
-.steps.s4{grid-template-columns:repeat(4,1fr)}
-.more.m3{grid-template-columns:repeat(3,1fr)}
-.rg{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-.stars{color:var(--gold);letter-spacing:3px;font-size:1.05rem;margin-bottom:8px}
-.gh{display:block;font-weight:800;font-size:1.25rem;text-decoration:none;border-top:4px solid var(--c);padding-top:12px;margin-bottom:16px;color:var(--fg)}
-.gh:hover{color:var(--c)}
-.pt{font-weight:700;font-size:.9rem;margin:0 0 8px;color:var(--mute)}
-.pr{margin-bottom:22px}
-.pr .pair{gap:10px}
-.pr .pair figcaption{font-size:.8rem;margin-top:6px}
-.pr .pair figure .ph{border-radius:12px}
-.cap{font-size:.85rem;color:var(--mute);margin-top:10px}
-details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;padding:0 22px}
-summary{cursor:pointer;font-weight:700;padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
-summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--c,var(--gold))}
-details[open] summary::after{content:"\2212"}
-details p{color:var(--mute);padding-bottom:18px}
-form{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px}
-.f{margin-bottom:16px;border:0}
-.f label,.f legend{display:block;font-weight:700;font-size:.9rem;margin-bottom:6px}
-.f input[type=text],.f input[type=email],.f input[type=tel],.f textarea{width:100%;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
-.f textarea{min-height:96px;resize:vertical}
-.f input:focus,.f textarea:focus{outline:3px solid var(--c,var(--gold));outline-offset:1px}
-.r2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.o{display:flex;flex-wrap:wrap;gap:8px}
-.o label{display:inline-flex;gap:7px;align-items:center;border:1.5px solid var(--line);border-radius:99px;padding:7px 15px;font-weight:600;font-size:.9rem;cursor:pointer;margin:0}
-.o input{accent-color:var(--c,var(--gold))}
-.o label:has(input:checked){border-color:var(--c,var(--gold));background:var(--bg)}
-.sub{width:100%;background:var(--c,var(--gold));color:#0a1322;border:0;font:inherit;font-weight:800;padding:15px;border-radius:12px;cursor:pointer}
-.msg{margin-top:12px;font-weight:700;min-height:1.3em}
-.tl{list-style:none;border-left:3px solid var(--gold);margin-left:8px}
-.tl li{position:relative;padding:0 0 30px 30px}
-.tl li::before{content:"";position:absolute;left:-10px;top:7px;width:17px;height:17px;border-radius:50%;background:var(--bg);border:4px solid var(--gold)}
-.tl b{display:block;font-size:1.15rem}
-.tm{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:820px}
-.pic{aspect-ratio:4/3;border-radius:14px;margin-bottom:16px;background:linear-gradient(150deg,#1f3560,#0a1322);display:grid;place-items:center;font-size:4rem;font-weight:800;color:var(--gold)}
-.role{color:var(--gold);font-weight:800;font-size:.9rem}
-blockquote{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
-blockquote p{font-size:1.05rem}
-blockquote cite{display:block;margin-top:12px;font-style:normal;font-weight:700;color:var(--mute);font-size:.88rem}
-.more{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.more a{display:block;text-decoration:none;border:1px solid var(--line);background:var(--card);border-radius:16px;padding:22px;border-left:5px solid var(--c);font-weight:800;transition:transform .15s}
-.more a:hover{transform:translateX(6px)}
-.more small{display:block;font-weight:500;color:var(--mute)}
-footer{background:#060c17;color:#aab6ca;padding:64px 0 34px;font-size:.93rem}
-.fg{display:grid;grid-template-columns:1.3fr repeat(3,1fr);gap:32px}
-footer h4{color:#fff;margin-bottom:10px}
-footer li{list-style:none;margin-bottom:7px}
-footer a{color:#aab6ca;text-decoration:none}
-footer a:hover{color:var(--gold)}
-.leg{margin-top:36px;padding-top:20px;border-top:1px solid #1d2c47;font-size:.85rem}
-.rv{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s}
-.rv.in{opacity:1;transform:none}
-@media(max-width:900px){
- .g3,.g2,.steps,.fg,.tm,.more,.svs,.pair{grid-template-columns:1fr}.steps.s4,.more.m3,.rg{grid-template-columns:1fr}.pr .pair{grid-template-columns:1fr 1fr}
- .g2{gap:32px}.sec{padding:58px 0}.band{padding:32px}
- .menu{display:block}
- nav{display:none;position:absolute;top:86px;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;background:#060c17;padding:16px 24px 24px;border-bottom:1px solid #1d2c47;margin-left:0}
- nav a{padding:14px 16px;font-size:1rem}
- nav a.btn{margin:12px 0 0;text-align:center}
- .bar{gap:16px}
- nav.open{display:flex}
- .r2{grid-template-columns:1fr}
-}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
-</style>
+<link rel="stylesheet" href="style.css">
+<noscript><style>.rv{opacity:1;transform:none}</style></noscript>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"OzTeen Services","url":"https://ozteen.com/"},{"@type":"Organization","name":"OzTeen Services","url":"https://ozteen.com/","areaServed":"Northern Beaches, Sydney","sameAs":["https://ozteenrubbish.com","https://ozteengardens.com","https://ozteenpressurewash.com"]}]}</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="0 0 410 100"><g fill="none" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><g stroke="#D2B77A"><ellipse cx="45" cy="50" rx="34" ry="40"/><path d="M102 40H138L102 84H140"/></g><g stroke="#fff"><path d="M158 14H212M185 14V86"/><path d="M220 62H272A26 26 0 1 0 266 79"/><path d="M282 62H334A26 26 0 1 0 328 79"/><path d="M356 36V86M356 60A18 24 0 0 1 392 60V86"/></g></g></symbol></svg>
 <header><div class="w bar">
-<a href="#/" aria-label="OzTeen Services home"><svg class="logo" role="img" aria-label="OzTeen"><use href="#lg"/></svg></a>
+<a href="index.html" aria-label="OzTeen Services home"><svg class="logo" role="img" aria-label="OzTeen"><use href="#lg"/></svg></a>
 <button class="menu" aria-label="Open menu" aria-expanded="false"></button>
-<nav id="nav" aria-label="Main"></nav>
+<nav id="nav" aria-label="Main"><a href="index.html" class="on" aria-current="page">Home</a><a href="rubbish-removal.html">Rubbish Removal</a><a href="gardens-landscaping.html">Gardens</a><a href="pressure-washing.html">Pressure Washing</a><a href="about.html">About us</a><a href="contact.html">Contact us</a><a class="btn" href="contact.html">Get a quote</a></nav>
+<a class="callbtn" href="tel:0438619660" aria-label="Call OzTeen on 0438 619 660"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg><span class="ct-full">Call 0438 619 660</span><span class="ct-short">Call now</span></a>
 </div></header>
-<main id="main"></main>
+<main id="main">
+<section class="hero"><div class="w"><span class="kick" style="color:#d2b77a">Sydney's Northern Beaches</span><h1>Three local services. One crew.</h1><p class="l">Rubbish removal, gardens and landscaping, and pressure washing from co-founders Max and Nick.</p><div class="acts"><a class="btn" href="contact.html">Get a quote</a><a class="btn g" href="about.html">Meet the crew</a></div></div></section>
+<section class="sec rv"><div class="w"><span class="kick">Before and after</span><h2>Real jobs, real results</h2><p class="mute" style="margin-bottom:32px">A look at recent work across all three services. Tap a heading to see more of that service.</p><div class="g3"><div style="--c:var(--c1)"><a class="gh" href="rubbish-removal.html">Rubbish Removal</a><div class="pr"><p class="pt">Garage clear-out</p><div class="pair"><figure><div class="ph"><img src="Before%20Garage%20copy.jpeg" alt="Before: Garage clear-out" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="After%20Garage%20copy.jpeg" alt="After: Garage clear-out" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div><div class="pr"><p class="pt">Green waste clear-out</p><div class="pair"><figure><div class="ph"><img src="Before%20Garden%20copy.jpeg" alt="Before: Green waste clear-out" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="After%20Garden%20copy.jpeg" alt="After: Green waste clear-out" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div></div><div style="--c:var(--c2)"><a class="gh" href="gardens-landscaping.html">Gardens and Landscaping</a><div class="pr"><p class="pt">Backyard landscaping</p><div class="pair"><figure><div class="ph"><img src="Landscaping%20Backyard%202%20Before%20copy.png" alt="Before: Backyard landscaping" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="Landscaping%20Backyard%202%20After%20copy.png" alt="After: Backyard landscaping" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div><div class="pr"><p class="pt">Nature strip</p><div class="pair"><figure><div class="ph"><img src="Landscaping%20Nature%20Strip%20Before%20copy.png" alt="Before: Nature strip" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="Landscaping%20Nature%20Strip%20After%20copy.jpg" alt="After: Nature strip" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div></div><div style="--c:var(--c3)"><a class="gh" href="pressure-washing.html">Pressure Washing</a><div class="pr"><p class="pt">Roof wash</p><div class="pair"><figure><div class="ph"><img src="Roof%20Before%20copy.png" alt="Before: Roof wash" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="Roof%20After%20copy.png" alt="After: Roof wash" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div><div class="pr"><p class="pt">Paving wash</p><div class="pair"><figure><div class="ph"><img src="Pressure%20Before%202%20copy.png" alt="Before: Paving wash" loading="lazy" onerror="this.remove()"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"><img src="Pressure%20After%202%20copy.png" alt="After: Paving wash" loading="lazy" onerror="this.remove()"></div><figcaption>After</figcaption></figure></div></div></div></div></div></section>
+<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">How we do it</span><h2>From first message to a clean finish</h2><div class="steps s4" style="--c:var(--gold)"><div class="st"><b>1</b><h3>Tell us the job</h3><p class="mute">Pick your service and fill in a quick form.</p></div><div class="st"><b>2</b><h3>Get a same-day quote</h3><p class="mute">Flat, upfront pricing with no booking fee.</p></div><div class="st"><b>3</b><h3>We do the job</h3><p class="mute">Book a time that suits, with next-day rubbish removal available.</p></div><div class="st"><b>4</b><h3>Left clean</h3><p class="mute">Final price confirmed on site, and the area tidied before we go.</p></div></div><div class="more m3" style="margin-top:36px"><a href="rubbish-removal.html" style="--c:var(--c1)">How Rubbish Removal works<small>OzTeen Rubbish Removals</small></a><a href="gardens-landscaping.html" style="--c:var(--c2)">How Gardens and Landscaping works<small>OzTeen Gardens</small></a><a href="pressure-washing.html" style="--c:var(--c3)">How Pressure Washing works<small>OzTeen Pressure Washing</small></a></div></div></section>
+<section class="sec rv" style="padding-top:0"><div class="w"><div class="band"><span class="kick">Our story</span><h2>Started with a ute.</h2><p>Co-founders Max and Nick have worked together in rubbish removal and landscaping since they were 16. OzTeen grew from Airtasker jobs and a ute into three local businesses.</p><div class="acts" style="margin-top:24px"><a class="btn" href="about.html">Read our story</a></div></div></div></section>
+<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">Google reviews</span><h2>What customers say</h2><div class="rg"><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Great price, the boys were excellent in taking a large and heavy amount of my rubbish away. Quick and reliable, and they even grabbed a little extra at no extra fee.</p><cite>Lisa, 5 stars on Google</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>A whole garage worth of rubbish from renovations. Professional, efficient and cleaned up. Absolutely recommend.</p><cite>Jason, Dee Why</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Very professional, great price and efficient work.</p><cite>Julia, Mosman</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Great price.</p><cite>Matthew, Frenchs Forest</cite></blockquote></div><p style="margin-top:22px"><a class="lk" style="color:var(--fg)" href="https://ozteenrubbish.com">See more reviews at ozteenrubbish.com</a></p></div></section>
+<section class="sec rv" style="padding-top:0"><div class="w"><div class="band" style="text-align:center"><h2>Got a job?</h2><p style="margin:0 auto 24px">Choose your service and we will send a same-day quote.</p><div class="acts" style="justify-content:center"><a class="btn" href="contact.html">Get a quote</a><a class="btn g" href="rubbish-removal.html">Rubbish Removal</a><a class="btn g" href="gardens-landscaping.html">Gardens</a><a class="btn g" href="pressure-washing.html">Pressure Washing</a></div></div></div></section>
+</main>
 <footer><div class="w"><div class="fg">
 <div><svg class="logo"><use href="#lg"/></svg><p style="margin-top:14px">Three local home services businesses on Sydney's Northern Beaches.</p><p style="margin-top:8px">Open Monday to Sunday, 7am to 6pm</p></div>
-<div><h4>Pages</h4><ul><li><a href="#/">Home</a></li><li><a href="#/about">About us</a></li><li><a href="#/contact">Contact us</a></li></ul></div>
-<div><h4>Services</h4><ul><li><a href="#/rubbish">Rubbish Removal</a></li><li><a href="#/gardens">Gardens and Landscaping</a></li><li><a href="#/pressure">Pressure Washing</a></li></ul></div>
+<div><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact us</a></li></ul></div>
+<div><h4>Services</h4><ul><li><a href="rubbish-removal.html">Rubbish Removal</a></li><li><a href="gardens-landscaping.html">Gardens and Landscaping</a></li><li><a href="pressure-washing.html">Pressure Washing</a></li></ul></div>
 <div><h4>Our sites</h4><ul><li><a href="https://ozteenrubbish.com">ozteenrubbish.com</a></li><li><a href="https://ozteengardens.com">ozteengardens.com</a></li><li><a href="https://ozteenpressurewash.com">ozteenpressurewash.com</a></li></ul></div>
 </div><p class="leg">&copy; <span id="yr"></span> OzTeen Services. ABN 86 866 322 827.</p></div></footer>
-<script>
-const KEY='461f0ba0-441f-448d-a5b8-a2887b7c7203',EP='https://api.web3forms.com/submit';
-const $=(s,r=document)=>r.querySelector(s);
-const O=(k,n,a)=>`<div class="o">${a.map(x=>`<label><input type="${k}" name="${n}" value="${x}">${x}</label>`).join('')}</div>`;
-const S={
-rubbish:{p:'rubbish',cv:'--c1',nav:'Rubbish Removal',name:'Rubbish Removal',biz:'OzTeen Rubbish Removals',dom:'ozteenrubbish.com',
-h1:'Rubbish gone. Flat price. Same-day quote.',lead:'Household junk, green waste, mattresses, garage and commercial clear-outs across the Northern Beaches.',
-tabs:[['Household junk','General household clutter cleared from inside or out.'],['Green waste','Garden clippings, branches and green waste taken away.'],['Mattresses','Old mattresses removed so you do not have to move them.'],['Garage clear-outs','Whole garages emptied, from a few items to a full clear-out.'],['Commercial','Clear-outs for businesses and commercial sites.'],['Single items','Just one thing to go? We can take a single item too.']],
-steps:[['Send your details','Tell us what needs to go and where it is.'],['Get a same-day quote','Flat, upfront pricing with no booking fee.'],['We remove it','Book next-day removal. Final price confirmed on site.']],
-ba:['Garage, before','Garage, after'],
-faq:[['Is there a booking fee?','No. Pricing is flat and upfront with no booking fee, and the final price is confirmed on site.'],['How fast can you come?','Quotes are same-day, and removals can be booked for the next day.'],['Where do you work?','Across the Northern Beaches and surrounding suburbs. Ask if you are unsure.']],
-f:[['What needs to go?','checkbox','job',['Household junk','Green waste','Mattress','Garage clear-out','Commercial','Single item']],['When do you need it gone?','radio','timing',['Next day','This week','Flexible']]],ph:'What is being removed, and where is it?'},
-gardens:{p:'gardens',cv:'--c2',nav:'Gardens',name:'Gardens and Landscaping',biz:'OzTeen Gardens',dom:'ozteengardens.com',
-h1:'Gardens that look cared for.',lead:'Maintenance, clean-ups and small landscaping, backed by 8+ years of combined landscaping experience.',
-tabs:[['Lawn mowing','Regular or one-off mowing to keep lawns neat.'],['Hedging and pruning','Hedges and shrubs trimmed back and shaped.'],['Garden clean-ups','Overgrown beds and yards cleared and tidied.'],['Mulching','Fresh mulch spread to finish garden beds.'],['Small landscaping','Small landscaping jobs around the home.'],['One-off tidy-ups','A single visit to get things back in order.']],
-steps:[['Tell us about the garden','Share what you need done and roughly how big it is.'],['Get a same-day quote','We reply with a quote the same day.'],['We get it done','One-off or regular visits, whatever suits.']],
-ba:['Garden, before','Garden, after'],
-faq:[['Do you do regular maintenance?','Yes. We can visit once or on a regular schedule.'],['Do you take on big landscaping projects?','We focus on maintenance and small landscaping jobs.'],['What experience do you have?','8+ years of combined landscaping experience.']],
-f:[['What do you need done?','checkbox','service',['Lawn mowing','Hedging and pruning','Garden clean-up','Small landscaping','Mulching','One-off tidy-up']],['How often?','radio','frequency',['One-off','Regular visits','Not sure yet']]],ph:'Tell us about the garden and the work you have in mind.'},
-pressure:{p:'pressure',cv:'--c3',nav:'Pressure Washing',name:'Pressure Washing',biz:'OzTeen Pressure Washing',dom:'ozteenpressurewash.com',
-h1:'Clean it back to like new.',lead:'Driveways, walkways, patios and outdoor areas pressure washed by the same crew.',
-tabs:[['Driveways','Stained, dirty driveways cleaned back to a fresh finish.'],['Walkways','Paths and walkways washed clean.'],['Patios','Patios and entertaining areas cleaned up.'],['Outdoor areas','Other outdoor areas around the home.']],
-steps:[['Send your details','Tell us what needs washing.'],['Get a same-day quote','We reply with a quote the same day.'],['We wash it','Same crew, same careful approach.']],
-ba:['Driveway, before','Driveway, after'],
-faq:[['What can you wash?','Driveways, walkways, patios and other outdoor areas.'],['How do I get a quote?','Fill in the form on this page and we reply the same day.'],['Is this a separate business?','Yes, OzTeen Pressure Washing is the newest OzTeen business, run by the same crew.']],
-f:[['What needs washing?','checkbox','area',['Driveway','Walkways','Patio','Other outdoor area']]],ph:'Roughly how big is the area, and is anything stained or mouldy?'}
-};
-const form=s=>`<form data-svc="${s.name}"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px"><div class="r2"><div class="f"><label>Name</label><input type="text" required></div><div class="f"><label>Phone</label><input type="tel" required></div></div><div class="r2"><div class="f"><label>Email</label><input type="email"></div><div class="f"><label>Suburb</label><input type="text" required></div></div>${s.f.map(x=>`<fieldset class="f"><legend>${x[0]}</legend>${O(x[1],x[2],x[3])}</fieldset>`).join('')}<div class="f"><label>Job details</label><textarea placeholder="${s.ph}"></textarea></div><button class="sub">Request my ${s.name} quote</button><p class="msg" role="status"></p></form>`;
-const svc=s=>`<div style="--c:var(${s.cv})">
-<section class="hero"><div class="w"><span class="kick" style="color:#fff;opacity:.8">${s.biz}</span><h1>${s.h1}</h1><p class="l">${s.lead}</p><div class="acts"><button class="btn" data-sc="q">Get a quote</button><a class="btn g" href="https://${s.dom}">Visit ${s.dom}</a></div></div></section>
-<section class="sec rv"><div class="w"><span class="kick">What we cover</span><h2>Everything we take on</h2><div class="svs">${s.tabs.map(t=>`<div class="sv"><h3>${t[0]}</h3><p>${t[1]}</p></div>`).join('')}</div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">How it works</span><h2>Simple from start to finish</h2><div class="steps">${s.steps.map((t,i)=>`<div class="st"><b>${i+1}</b><h3>${t[0]}</h3><p class="mute">${t[1]}</p></div>`).join('')}</div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">Before and after</span><h2>See the difference</h2><div class="pair"><figure><div class="ph"></div><figcaption>${s.ba[0]}</figcaption></figure><figure class="a"><div class="ph"></div><figcaption>${s.ba[1]}</figcaption></figure></div><p class="cap">Placeholder. Your own before and after photos go here.</p></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w g2"><div><span class="kick">Questions</span><h2>Good to know</h2>${s.faq.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join('')}</div><div id="q"><span class="kick">Get a quote</span><h2>${s.name} quote</h2>${form(s)}</div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><h2>More from OzTeen</h2><div class="more">${Object.values(S).filter(x=>x!==s).map(x=>`<a href="#/${x.p}" style="--c:var(${x.cv})">${x.name}<small>${x.biz}</small></a>`).join('')}</div></div></section></div>`;
-const home=()=>`<section class="hero"><div class="w"><span class="kick" style="color:#d2b77a">Sydney's Northern Beaches</span><h1>Three local services. One crew.</h1><p class="l">Rubbish removal, gardens and landscaping, and pressure washing from co-founders Max and Nick.</p><div class="acts"><a class="btn" href="#/contact">Get a quote</a><a class="btn g" href="#/about">Meet the crew</a></div></div></section>
-<section class="sec rv"><div class="w"><span class="kick">Before and after</span><h2>Real jobs, real results</h2><p class="mute" style="margin-bottom:32px">A look at recent work across all three services. Tap a heading to see more of that service.</p><div class="g3">${[['rubbish',['Garage clear-out','Green waste clear-out']],['gardens',['Garden clean-up','Hedging and pruning']],['pressure',['Driveway wash','Patio wash']]].map(g=>{const s=S[g[0]];return `<div style="--c:var(${s.cv})"><a class="gh" href="#/${s.p}">${s.name}</a>${g[1].map(t=>`<div class="pr"><p class="pt">${t}</p><div class="pair"><figure><div class="ph"></div><figcaption>Before</figcaption></figure><figure class="a"><div class="ph"></div><figcaption>After</figcaption></figure></div></div>`).join('')}</div>`}).join('')}</div><p class="cap">Placeholders. Your own before and after photos go here.</p></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">How we do it</span><h2>From first message to a clean finish</h2><div class="steps s4" style="--c:var(--gold)"><div class="st"><b>1</b><h3>Tell us the job</h3><p class="mute">Pick your service and fill in a quick form.</p></div><div class="st"><b>2</b><h3>Get a same-day quote</h3><p class="mute">Flat, upfront pricing with no booking fee.</p></div><div class="st"><b>3</b><h3>We do the job</h3><p class="mute">Book a time that suits, with next-day rubbish removal available.</p></div><div class="st"><b>4</b><h3>Left clean</h3><p class="mute">Final price confirmed on site, and the area tidied before we go.</p></div></div><div class="more m3" style="margin-top:36px">${Object.values(S).map(s=>`<a href="#/${s.p}" style="--c:var(${s.cv})">How ${s.name} works<small>${s.biz}</small></a>`).join('')}</div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><div class="band"><span class="kick">Our story</span><h2>Started with a ute.</h2><p>Co-founders Max and Nick have worked together in rubbish removal and landscaping since they were 16. OzTeen grew from Airtasker jobs and a ute into three local businesses.</p><div class="acts" style="margin-top:24px"><a class="btn" href="#/about">Read our story</a></div></div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">Google reviews</span><h2>What customers say</h2><div class="rg"><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Great price, the boys were excellent in taking a large and heavy amount of my rubbish away. Quick and reliable, and they even grabbed a little extra at no extra fee.</p><cite>Lisa, 5 stars on Google</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>A whole garage worth of rubbish from renovations. Professional, efficient and cleaned up. Absolutely recommend.</p><cite>Jason, Dee Why</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Very professional, great price and efficient work.</p><cite>Julia, Mosman</cite></blockquote><blockquote><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Great price.</p><cite>Matthew, Frenchs Forest</cite></blockquote></div><p style="margin-top:22px"><a class="lk" style="color:var(--fg)" href="https://ozteenrubbish.com">See more reviews at ozteenrubbish.com</a></p></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><div class="band" style="text-align:center"><h2>Got a job?</h2><p style="margin:0 auto 24px">Choose your service and we will send a same-day quote.</p><div class="acts" style="justify-content:center"><a class="btn" href="#/contact">Get a quote</a><a class="btn g" href="#/rubbish">Rubbish Removal</a><a class="btn g" href="#/gardens">Gardens</a><a class="btn g" href="#/pressure">Pressure Washing</a></div></div></div></section>`;
-const about=()=>`<section class="hero"><div class="w"><span class="kick" style="color:#d2b77a">About us</span><h1>Two mates and a ute.</h1><p class="l">The story behind OzTeen, and the people who show up to every job.</p></div></section>
-<section class="sec rv"><div class="w g2"><div><span class="kick">Our story</span><h2>How OzTeen got here</h2><p class="mute">OzTeen began with rubbish removal and landscaping jobs, and grew into three businesses run by the same crew, serving the Northern Beaches seven days a week.</p></div><ol class="tl"><li><b>Age 16</b><span class="mute">Max and Nick start working together in rubbish removal and landscaping.</span></li><li><b>Airtasker and a ute</b><span class="mute">The jobs keep coming through Airtasker, done from a ute.</span></li><li><b>School to uni</b><span class="mute">The work and the customers grow alongside study.</span></li><li><b>OzTeen Rubbish Removals</b><span class="mute">The most-requested job becomes the first business.</span></li><li><b>Gardens and Pressure Washing</b><span class="mute">Two more services launch under the OzTeen name.</span></li></ol></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><span class="kick">Our team</span><h2>The co-founders</h2><div class="tm"><div class="card"><div class="pic">M</div><h3>Max</h3><div class="role">Co-Founder</div><p class="mute" style="margin-top:8px">Has worked alongside Nick in rubbish removal and landscaping since they were both 16.</p></div><div class="card"><div class="pic">N</div><h3>Nick</h3><div class="role">Co-Founder</div><p class="mute" style="margin-top:8px">Has worked alongside Max in rubbish removal and landscaping since they were both 16.</p></div></div></div></section>
-<section class="sec rv" style="padding-top:0"><div class="w"><h2>What we promise</h2><div class="g3"><div class="card"><h3>Same-day quotes</h3><p>Ask in the morning, hear back the same day.</p></div><div class="card"><h3>Flat, upfront pricing</h3><p>No booking fee. Final price confirmed on site.</p></div><div class="card"><h3>Left clean</h3><p>Every job finishes with the area tidied.</p></div></div></div></section>`;
-const contact=()=>`<section class="hero"><div class="w"><span class="kick" style="color:#d2b77a">Contact us</span><h1>Tell us what needs doing.</h1><p class="l">Pick the service, fill in the form and we will send a same-day quote.</p></div></section>
-<section class="sec rv"><div class="w g2"><div><span class="kick">Choose a service</span><h2>Get a quote</h2><div class="tabs" id="ct">${Object.values(S).map((s,i)=>`<button data-cf="${s.p}" style="--c:var(${s.cv})" aria-selected="${i==0}">${s.name}</button>`).join('')}</div><div id="cf" style="--c:var(--c1)">${form(S.rubbish)}</div></div>
-<div><span class="kick">Details</span><h2>Where and when</h2><p class="mute">Open Monday to Sunday, 7am to 6pm.</p><div class="tag" style="margin-top:18px">${['Northern Beaches','Belrose','Frenchs Forest','Dee Why','Mosman','Hornsby','Terrey Hills','St Ives'].map(x=>`<span>${x}</span>`).join('')}</div><p class="mute">Not sure we come to you? Send a quote request and we will confirm the same day.</p><div class="more" style="margin-top:28px;grid-template-columns:1fr">${Object.values(S).map(s=>`<a href="https://${s.dom}" style="--c:var(${s.cv})">${s.biz}<small>${s.dom}</small></a>`).join('')}</div></div></div></section>`;
-const R={'':home,rubbish:()=>svc(S.rubbish),gardens:()=>svc(S.gardens),pressure:()=>svc(S.pressure),about,contact};
-const NV=[['','Home'],['rubbish','Rubbish Removal'],['gardens','Gardens'],['pressure','Pressure Washing'],['about','About us'],['contact','Contact us']];
-const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.08});
-function go(){let k=location.hash.replace(/^#\/?/,'');if(!(k in R))k='';$('#main').innerHTML=R[k]();
-$('#nav').innerHTML=NV.map(n=>`<a href="#/${n[0]}" class="${n[0]==k?'on':''}">${n[1]}</a>`).join('')+'<a class="btn" href="#/contact">Get a quote</a>';$('#nav').classList.remove('open');$('.menu').setAttribute('aria-expanded','false');
-document.title=(k?NV.find(n=>n[0]==k)[1]+' | ':'')+'OzTeen Services';scrollTo(0,0);document.querySelectorAll('.rv').forEach(e=>io.observe(e))}
-addEventListener('hashchange',go);go();$('#yr').textContent=new Date().getFullYear();
-document.addEventListener('click',e=>{const t=e.target.closest('button,a');if(!t)return;
-if(t.classList.contains('menu')){const o=$('#nav').classList.toggle('open');t.setAttribute('aria-expanded',o)}
-if(t.dataset.sc)$('#'+t.dataset.sc).scrollIntoView({behavior:'smooth'});
-if(t.dataset.cf){const s=S[t.dataset.cf];t.parentNode.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',b==t));$('#cf').style.setProperty('--c','var('+s.cv+')');$('#cf').innerHTML=form(s)}});
-document.addEventListener('submit',async e=>{e.preventDefault();const f=e.target,m=f.querySelector('.msg'),b=f.querySelector('.sub');
-if(f.querySelector('[name=botcheck]').checked)return;
-const d=new FormData();d.append('access_key',KEY);d.append('from_name','OzTeen Services website');d.append('subject','New quote request: '+f.dataset.svc);d.append('Service',f.dataset.svc);
-f.querySelectorAll('.f').forEach(g=>{const lg=g.querySelector('legend');
-if(lg){const v=[...g.querySelectorAll('input:checked')].map(i=>i.value);if(v.length)d.append(lg.textContent,v.join(', '))}
-else{const i=g.querySelector('input,textarea');if(i&&i.value)d.append(g.querySelector('label').textContent,i.value)}});
-b.disabled=true;m.textContent='Sending...';
-try{const r=await fetch(EP,{method:'POST',body:d,headers:{Accept:'application/json'}});const j=await r.json();
-if(r.ok&&j.success){f.reset();m.textContent='Thanks! We will send your same-day quote soon.'}else{m.textContent='Something went wrong. Please try again.'}}
-catch(x){m.textContent='Could not send. Please try again.'}
-b.disabled=false});
-</script>
+<script src="script.js"></script>
 </body>
 </html>
